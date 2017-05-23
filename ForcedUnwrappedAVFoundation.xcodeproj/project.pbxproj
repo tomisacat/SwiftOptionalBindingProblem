@@ -14,6 +14,8 @@
 		F27F44CD1ED2BB4400AA9A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27F44CB1ED2BB4400AA9A76 /* LaunchScreen.storyboard */; };
 		F27F44D81ED2BB4400AA9A76 /* ForcedUnwrappedAVFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F44D71ED2BB4400AA9A76 /* ForcedUnwrappedAVFoundationTests.swift */; };
 		F27F44E31ED2BB4400AA9A76 /* ForcedUnwrappedAVFoundationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F44E21ED2BB4400AA9A76 /* ForcedUnwrappedAVFoundationUITests.swift */; };
+		F27F44F11ED2BF1C00AA9A76 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = F27F44F01ED2BF1C00AA9A76 /* video.mov */; };
+		F27F44F31ED2D35300AA9A76 /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F44F21ED2D35300AA9A76 /* Separator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F27F44DE1ED2BB4400AA9A76 /* ForcedUnwrappedAVFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForcedUnwrappedAVFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27F44E21ED2BB4400AA9A76 /* ForcedUnwrappedAVFoundationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcedUnwrappedAVFoundationUITests.swift; sourceTree = "<group>"; };
 		F27F44E41ED2BB4400AA9A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27F44F01ED2BF1C00AA9A76 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
+		F27F44F21ED2D35300AA9A76 /* Separator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				F27F44C21ED2BB4400AA9A76 /* AppDelegate.swift */,
 				F27F44C41ED2BB4400AA9A76 /* ViewController.swift */,
+				F27F44F21ED2D35300AA9A76 /* Separator.swift */,
+				F27F44F01ED2BF1C00AA9A76 /* video.mov */,
 				F27F44C61ED2BB4400AA9A76 /* Main.storyboard */,
 				F27F44C91ED2BB4400AA9A76 /* Assets.xcassets */,
 				F27F44CB1ED2BB4400AA9A76 /* LaunchScreen.storyboard */,
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27F44F11ED2BF1C00AA9A76 /* video.mov in Resources */,
 				F27F44CD1ED2BB4400AA9A76 /* LaunchScreen.storyboard in Resources */,
 				F27F44CA1ED2BB4400AA9A76 /* Assets.xcassets in Resources */,
 				F27F44C81ED2BB4400AA9A76 /* Main.storyboard in Resources */,
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F27F44C51ED2BB4400AA9A76 /* ViewController.swift in Sources */,
+				F27F44F31ED2D35300AA9A76 /* Separator.swift in Sources */,
 				F27F44C31ED2BB4400AA9A76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
