@@ -61,7 +61,7 @@ class ViewController: UIViewController {
             }
             
             let export: AVAssetExportSession? = AVAssetExportSession(asset: composition, presetName: AVAssetExportPresetHighestQuality)
-            export?.outputURL = URL(fileURLWithPath: NSTemporaryDirectory() + "/output.mov")
+            export?.outputURL = URL(fileURLWithPath: NSTemporaryDirectory() + "/" + String.random() + ".mov")
             export?.outputFileType = AVFileTypeQuickTimeMovie
             export?.shouldOptimizeForNetworkUse = true
             export?.exportAsynchronously(completionHandler: {
