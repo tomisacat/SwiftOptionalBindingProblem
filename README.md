@@ -13,19 +13,19 @@ Demo app illustrate problem with Swift optional binding.
 2. uncomment the commented statements in ViewController.swift and comment statements below them:
 
 ```swift
-    if let audio = audioUrl {
-        let reversedAudioAsset = AVURLAsset(url: audio)
-        reversedAudioAssetTrack = reversedAudioAsset.tracks(withMediaType: AVMediaTypeAudio).first
-    }
-//                let reversedAudioAsset = AVURLAsset(url: audioUrl!)
-//                reversedAudioAssetTrack = reversedAudioAsset.tracks(withMediaType: AVMediaTypeAudio).first
+// if let audio = audioUrl {
+//    let reversedAudioAsset = AVURLAsset(url: audio)
+//    reversedAudioAssetTrack = reversedAudioAsset.tracks(withMediaType: AVMediaTypeAudio).first
+//}
+let reversedAudioAsset = AVURLAsset(url: audioUrl!)
+reversedAudioAssetTrack = reversedAudioAsset.tracks(withMediaType: AVMediaTypeAudio).first
 
-    if let video = videoUrl {
-        let reversedVideoAsset = AVURLAsset(url: video)
-        reversedVideoAssetTrack = reversedVideoAsset.tracks(withMediaType: AVMediaTypeVideo).first
-                }
-//                let reversedVideoAsset = AVURLAsset(url: videoUrl!)
-//                reversedVideoAssetTrack = reversedVideoAsset.tracks(withMediaType: AVMediaTypeVideo).first
+// if let video = videoUrl {
+//    let reversedVideoAsset = AVURLAsset(url: video)
+//    reversedVideoAssetTrack = reversedVideoAsset.tracks(withMediaType: AVMediaTypeVideo).first
+// }
+let reversedVideoAsset = AVURLAsset(url: videoUrl!)
+reversedVideoAssetTrack = reversedVideoAsset.tracks(withMediaType: AVMediaTypeVideo).first
 ```
 
 3. build and run, the error catched.
